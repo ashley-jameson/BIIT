@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.linalg import expm
 
 icomplex = complex(0,1)
 rotation_generators = 0.5 * np.array([
